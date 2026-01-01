@@ -21,6 +21,7 @@ export default function Navbar() {
     const navLinks = [
         { name: "Services", href: "/services" },
         { name: "Crypto Trading", href: "/services/crypto-trading" },
+        { name: "LinkedIn Rental", href: "/services/linkedin-rental" },
         { name: "News", href: "/news" },
         { name: "About Us", href: "/about" },
     ];
