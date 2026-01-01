@@ -36,7 +36,7 @@ export default function LinkedinRentalPage() {
                         Professional Networking
                     </div>
                     <h1 className="text-5xl md:text-6xl font-bold mb-8 font-outfit leading-tight">
-                        💼 Rent Your LinkedIn Account <br />
+                        Rent Your LinkedIn Account <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">& Earn Monthly</span>
                     </h1>
                     <p className="text-xl text-gray-400 mb-8 leading-relaxed">
