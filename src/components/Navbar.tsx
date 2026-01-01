@@ -35,7 +35,7 @@ export default function Navbar() {
                         <Bitcoin className="text-white h-6 w-6" />
                     </div>
                     <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-                        FutureFi
+                        CryptowithAliwaris
                     </span>
                 </Link>
 

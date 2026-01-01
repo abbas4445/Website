@@ -13,7 +13,7 @@ export default function Home() {
       <section className="py-24 bg-black relative">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-outfit">Why Choose FutureFi?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-outfit">Why Choose CryptowithAliwaris?</h2>
             <p className="text-gray-400">
               We provide the most advanced tools for crypto trading and asset management, wrapped in a beautiful interface.
             </p>

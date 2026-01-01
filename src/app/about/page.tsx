@@ -11,7 +11,7 @@ export default function AboutPage() {
 
                     <div className="prose prose-invert prose-lg mb-12">
                         <p className="text-xl text-gray-300 leading-relaxed mb-6">
-                            FutureFi was born from a simple belief: that financial freedom should be accessible to everyone, everywhere.
+                            CryptowithAliwaris was born from a simple belief: that financial freedom should be accessible to everyone, everywhere.
                             We are a team of engineers, financial experts, and dreamers working together to bridge the gap between
                             traditional finance and the blockchain economy.
                         </p>
@@ -39,7 +39,7 @@ export default function AboutPage() {
 
                     <div className="text-center bg-gradient-to-r from-blue-900/20 to-purple-900/20 p-12 rounded-3xl border border-white/5">
                         <h2 className="text-3xl font-bold mb-6">Ready to join the revolution?</h2>
-                        <Button size="lg">Join FutureFi</Button>
+                        <Button size="lg">Join CryptowithAliwaris</Button>
                     </div>
                 </div>
             </div>

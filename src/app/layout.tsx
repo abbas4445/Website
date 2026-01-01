@@ -17,7 +17,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "FutureFi | Next Gen Crypto Services",
+  title: "CryptowithAliwaris",
   description: "Secure and fast crypto trading and financial services.",
 };
 

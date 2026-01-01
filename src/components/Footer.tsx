@@ -11,7 +11,7 @@ export default function Footer() {
                             <div className="bg-gradient-to-tr from-blue-500 to-purple-500 p-1.5 rounded-lg">
                                 <Bitcoin className="text-white h-5 w-5" />
                             </div>
-                            <span className="text-xl font-bold text-white">FutureFi</span>
+                            <span className="text-xl font-bold text-white">CryptowithAliwaris</span>
                         </div>
                         <p className="text-gray-400 text-sm">
                             Empowering the next generation of digital finance. Secure, fast, and reliable crypto services.
@@ -47,7 +47,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-white/5 pt-8 text-center text-xs text-gray-500">
-                    © {new Date().getFullYear()} FutureFi. All rights reserved.
+                    © {new Date().getFullYear()} CryptowithAliwaris. All rights reserved.
                 </div>
             </div>
         </footer>
