@@ -52,9 +52,11 @@ export default function Navbar() {
                             {link.name}
                         </Link>
                     ))}
-                    <Button variant="primary" size="sm">
-                        Get Started
-                    </Button>
+                    <a href="https://chat.whatsapp.com/Bl0IAn2NEIoHQEwMoVzVcL" target="_blank" rel="noopener noreferrer">
+                        <Button variant="primary" size="sm">
+                            Join Community
+                        </Button>
+                    </a>
                 </div>
 
                 {/* Mobile Toggle */}
@@ -86,7 +88,9 @@ export default function Navbar() {
                                     {link.name}
                                 </Link>
                             ))}
-                            <Button className="w-full">Get Started</Button>
+                            <a href="https://chat.whatsapp.com/Bl0IAn2NEIoHQEwMoVzVcL" target="_blank" rel="noopener noreferrer" className="w-full">
+                                <Button className="w-full">Join Community</Button>
+                            </a>
                         </div>
                     </motion.div>
                 )}
