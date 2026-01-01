@@ -39,7 +39,7 @@ export default function Home() {
 
           <div className="mt-20 text-center">
             <Link href="/services">
-              <Button variant="secondary" size="lg">Explor Our Services</Button>
+              <Button variant="secondary" size="lg">Explore Our Services</Button>
             </Link>
           </div>
         </div>
