@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BarChart3 } from "lucide-react";
+import { ArrowRight, BarChart3, Briefcase } from "lucide-react";
 import { ReactNode } from "react";
 
 export default function ServicesPage() {
@@ -19,6 +19,12 @@ export default function ServicesPage() {
                         description="Buy and sell 200+ cryptocurrencies with deep liquidity and low fees. Advanced charting for pros."
                         icon={<BarChart3 className="w-10 h-10 text-blue-500" />}
                         href="/services/crypto-trading"
+                    />
+                    <ServiceCard
+                        title="LinkedIn Rental"
+                        description="Rent verified, aged LinkedIn accounts for your outreach campaigns. Safe, secure, and ready to use."
+                        icon={<Briefcase className="w-10 h-10 text-blue-500" />}
+                        href="/services/linkedin-rental"
                     />
 
                 </div>
