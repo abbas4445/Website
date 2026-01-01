@@ -5,12 +5,11 @@ import { Button } from "@/components/ui/Button";
 import { CheckCircle, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
-type AccountType = "fresh" | "aged" | "premium";
+type AccountType = "fresh" | "aged";
 
 const pricing = {
-    fresh: { base: 15, name: "Fresh Account" },
-    aged: { base: 35, name: "1+ Year Old" },
-    premium: { base: 60, name: "Sales Nav Premium" },
+    fresh: { base: 20, name: "Fresh Account" },
+    aged: { base: 50, name: "1+ Year Old" },
 };
 
 export default function LinkedinRentalPage() {
@@ -18,11 +17,7 @@ export default function LinkedinRentalPage() {
     const [duration, setDuration] = useState(1);
 
     const basePrice = pricing[accountType].base;
-    let discount = 0;
-    if (duration >= 3) discount = 0.10;
-    if (duration >= 6) discount = 0.20;
-
-    const totalPrice = (basePrice * duration * (1 - discount)).toFixed(2);
+    const totalPrice = (basePrice * duration).toFixed(2);
 
     return (
         <div className="min-h-screen py-20 relative overflow-hidden bg-black text-white">
@@ -83,8 +78,8 @@ export default function LinkedinRentalPage() {
                                                 key={type}
                                                 onClick={() => setAccountType(type)}
                                                 className={`p-4 rounded-xl border text-left transition-all ${accountType === type
-                                                        ? "bg-blue-600/20 border-blue-500 text-white"
-                                                        : "bg-black/40 border-white/10 text-gray-400 hover:border-white/30"
+                                                    ? "bg-blue-600/20 border-blue-500 text-white"
+                                                    : "bg-black/40 border-white/10 text-gray-400 hover:border-white/30"
                                                     }`}
                                             >
                                                 <div className="flex justify-between items-center">
@@ -105,8 +100,8 @@ export default function LinkedinRentalPage() {
                                                 key={m}
                                                 onClick={() => setDuration(m)}
                                                 className={`py-2 rounded-lg border transition-all ${duration === m
-                                                        ? "bg-blue-600 border-blue-500 text-white"
-                                                        : "bg-black/40 border-white/10 text-gray-400"
+                                                    ? "bg-blue-600 border-blue-500 text-white"
+                                                    : "bg-black/40 border-white/10 text-gray-400"
                                                     }`}
                                             >
                                                 {m} Mo
@@ -119,11 +114,6 @@ export default function LinkedinRentalPage() {
                                 <div className="bg-black/40 p-6 rounded-2xl border border-white/10">
                                     <div className="flex justify-between items-center mb-2">
                                         <span className="text-gray-400">Total Price</span>
-                                        {discount > 0 && (
-                                            <span className="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded-full">
-                                                {discount * 100}% OFF
-                                            </span>
-                                        )}
                                     </div>
                                     <div className="text-4xl font-bold text-white">
                                         ${totalPrice}
