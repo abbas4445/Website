@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Button } from "./ui/Button";
-import { Menu, X, Bitcoin } from "lucide-react";
+import { Menu, X, Bitcoin, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
@@ -53,7 +53,8 @@ export default function Navbar() {
                         </Link>
                     ))}
                     <a href="https://chat.whatsapp.com/Bl0IAn2NEIoHQEwMoVzVcL" target="_blank" rel="noopener noreferrer">
-                        <Button variant="primary" size="sm">
+                        <Button variant="primary" size="sm" className="flex items-center gap-2">
+                            <MessageCircle className="w-4 h-4" />
                             Join Community
                         </Button>
                     </a>
@@ -89,7 +90,10 @@ export default function Navbar() {
                                 </Link>
                             ))}
                             <a href="https://chat.whatsapp.com/Bl0IAn2NEIoHQEwMoVzVcL" target="_blank" rel="noopener noreferrer" className="w-full">
-                                <Button className="w-full">Join Community</Button>
+                                <Button className="w-full flex items-center justify-center gap-2">
+                                    <MessageCircle className="w-4 h-4" />
+                                    Join Community
+                                </Button>
                             </a>
                         </div>
                     </motion.div>
