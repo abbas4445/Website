@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BarChart3, Wallet, Globe, Shield } from "lucide-react";
+import { ArrowRight, BarChart3 } from "lucide-react";
 import { ReactNode } from "react";
 
 export default function ServicesPage() {
@@ -20,24 +20,7 @@ export default function ServicesPage() {
                         icon={<BarChart3 className="w-10 h-10 text-blue-500" />}
                         href="/services/crypto-trading"
                     />
-                    <ServiceCard
-                        title="Secure Wallet"
-                        description="Non-custodial wallets that give you full control over your private keys. Multi-chain support."
-                        icon={<Wallet className="w-10 h-10 text-purple-500" />}
-                        href="#"
-                    />
-                    <ServiceCard
-                        title="DeFi Access"
-                        description="Earn yield on your assets through integrated DeFi protocols. Staking made simple."
-                        icon={<Globe className="w-10 h-10 text-green-500" />}
-                        href="#"
-                    />
-                    <ServiceCard
-                        title="Institutional Custody"
-                        description="Bank-grade storage solutions for large holdings. Audited and insured."
-                        icon={<Shield className="w-10 h-10 text-orange-500" />}
-                        href="#"
-                    />
+
                 </div>
             </div>
         </div>
