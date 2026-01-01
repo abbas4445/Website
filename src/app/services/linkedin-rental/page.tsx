@@ -36,15 +36,15 @@ export default function LinkedinRentalPage() {
                         Professional Networking
                     </div>
                     <h1 className="text-5xl md:text-6xl font-bold mb-8 font-outfit leading-tight">
-                        Rent Verified <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">LinkedIn Accounts.</span>
+                        💼 Rent Your LinkedIn Account <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">& Earn Monthly</span>
                     </h1>
                     <p className="text-xl text-gray-400 mb-8 leading-relaxed">
-                        Scale your outreach instantly with our high-quality, verified LinkedIn accounts. Perfect for recruitment, sales, and marketing campaigns.
+                        Have an active LinkedIn account you're not using much? Rent it out and earn guaranteed monthly income.
                     </p>
 
                     <div className="space-y-6 mb-10">
-                        {["Phone Verified (PVA)", "Cookie Replacement Guarantee", "24/7 Support", "Instant Delivery"].map((item) => (
+                        {["Safe & secure usage", "No posting required", "Weekly payouts", "24/7 support"].map((item) => (
                             <div key={item} className="flex items-center text-gray-300">
                                 <CheckCircle className="w-5 h-5 text-green-400 mr-3" />
                                 {item}
@@ -65,7 +65,7 @@ export default function LinkedinRentalPage() {
 
                         <div className="relative z-10">
                             <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                                <Users className="text-blue-400" /> Rental Calculator
+                                <Users className="text-blue-400" /> Earnings Calculator
                             </h3>
 
                             <div className="space-y-6">
@@ -113,7 +113,7 @@ export default function LinkedinRentalPage() {
                                 {/* Total Price */}
                                 <div className="bg-black/40 p-6 rounded-2xl border border-white/10">
                                     <div className="flex justify-between items-center mb-2">
-                                        <span className="text-gray-400">Total Price</span>
+                                        <span className="text-gray-400">Your Monthly Earnings</span>
                                     </div>
                                     <div className="text-4xl font-bold text-white">
                                         ${totalPrice}
@@ -124,7 +124,7 @@ export default function LinkedinRentalPage() {
                                 </div>
 
                                 <Button className="w-full text-lg h-12 bg-blue-600 hover:bg-blue-500">
-                                    Rent Account Now
+                                    Start Earning Now
                                 </Button>
                             </div>
                         </div>

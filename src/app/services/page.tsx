@@ -22,7 +22,7 @@ export default function ServicesPage() {
                     />
                     <ServiceCard
                         title="LinkedIn Rental"
-                        description="Rent verified, aged LinkedIn accounts for your outreach campaigns. Safe, secure, and ready to use."
+                        description="Rent out your LinkedIn account and earn guaranteed monthly income. Safe, secure, and hassle-free."
                         icon={<Briefcase className="w-10 h-10 text-blue-500" />}
                         href="/services/linkedin-rental"
                     />
