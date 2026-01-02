@@ -30,6 +30,7 @@ export default function Footer() {
                         <h3 className="text-white font-semibold mb-4">Company</h3>
                         <ul className="space-y-2 text-sm text-gray-400">
                             <li><Link href="/about" className="hover:text-blue-400 transition-colors">About Us</Link></li>
+                            <li><Link href="/terms" className="hover:text-blue-400 transition-colors">Terms and Conditions</Link></li>
                             <li><Link href="#" className="hover:text-blue-400 transition-colors">Careers</Link></li>
                             <li><Link href="#" className="hover:text-blue-400 transition-colors">Contact</Link></li>
                         </ul>
