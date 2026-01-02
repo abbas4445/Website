@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { ArrowDownUp } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function CryptoTradingPage() {
     const [amount, setAmount] = useState<string>("1000");
@@ -99,6 +100,13 @@ export default function CryptoTradingPage() {
                             <Button className="w-full mt-4 h-14 text-lg bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 border-0">
                                 Buy Bitcoin Now
                             </Button>
+
+                            <p className="text-center mt-4 text-xs text-gray-500">
+                                By continuing, you agree to our{" "}
+                                <Link href="/terms" className="text-blue-400 hover:text-blue-300 transition-colors">
+                                    Terms and Conditions
+                                </Link>
+                            </p>
                         </div>
                     </div>
                 </motion.div>

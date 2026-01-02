@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { CheckCircle, Users } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type AccountType = "fresh" | "aged";
 
@@ -126,6 +127,13 @@ export default function LinkedinRentalPage() {
                                 <Button className="w-full text-lg h-12 bg-blue-600 hover:bg-blue-500">
                                     Start Earning Now
                                 </Button>
+
+                                <p className="text-center mt-4 text-xs text-gray-500">
+                                    By continuing, you agree to our{" "}
+                                    <Link href="/terms" className="text-blue-400 hover:text-blue-300 transition-colors">
+                                        Terms and Conditions
+                                    </Link>
+                                </p>
                             </div>
                         </div>
                     </div>
